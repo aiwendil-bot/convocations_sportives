@@ -8,6 +8,8 @@ en PHP et Javascript, fondée sur une architecture MVC.
 
 _/!\ Merci de lire entièrement ce README pour bien comprendre toutes les fonctionnalités de cette application._
 
+[lien vers le cachier des charges](https://docs.google.com/document/d/e/2PACX-1vSZcoXqiSy422RlHzc9akviX08dvxf3YLDDpZlhQWlUn2VWLjmjOF5nCxQXsmpV6rv3b14-2nqp0x_P/pub)
+
 # Connexion
 
 L'accès aux différentes parties (Secrétaire, Entraîneur, Visiteur) se fait en remplissant
