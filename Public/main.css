@@ -1,0 +1,304 @@
+html
+{
+    min-width: 100%;
+    min-height: 100%;
+   /*background-color: #a5a6a7;*/
+    /*background: rgb(70,70,69);
+    background: linear-gradient(180deg, rgba(70,70,69,1) 0%, rgba(125,123,122,1) 31%, rgba(255,255,255,1) 99%) ;*/
+}
+
+body
+{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.box
+{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #191919;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px ;
+}
+
+.box h1 
+{
+    color: white;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.box input[type="text"],.box input[type="password"]
+{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    border-radius:24px ;
+    width: 200px;
+    outline: none;
+    color: white;
+    transition: 0.25s;
+}
+
+.box input[type="text"]:focus,.box input[type="password"]:focus
+{
+    width: 280px;
+    border-color: #2ecc71;
+
+}
+
+.box input[type="submit"]
+{
+    
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    border-radius:24px ;
+    outline: none;
+    color: white;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.box input[type="submit"]:hover
+{
+    background: #2ecc71;
+}
+
+h2
+{
+    text-align: center;
+}
+
+.formS
+{
+    box-shadow: 10px 10px 10px rgb(41, 41, 41);
+    background-color: rgb(194, 209, 209);
+    /*box-shadow: 10px 10px 10px;*/
+    margin-top: 80px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 15rem;
+}
+
+.formS2
+{
+    box-shadow: 10px 10px 10px rgb(41, 41, 41);
+    background-color: rgb(194, 209, 209);
+    /*box-shadow: 10px 10px 10px;*/
+    margin-left: 20px;
+    width: 15rem;
+}
+
+
+.formS input[type="submit"]:hover
+{
+    background-color: #3498db;
+}
+
+/*.effectif table ,*/ .effectif tr /*, .effectif td , .effectif th*/
+{
+    text-align: center;
+    border : solid rgb(78, 76, 76) 1px; 
+    /*border-collapse:collapse;*/
+}
+
+.effectif
+{
+    margin-left: 20px;
+    box-shadow: 10px 10px 10px rgb(41, 41, 41);
+    background-color: white;
+    /*box-shadow: 10px 10px 10px;*/
+    border-collapse: collapse;
+}
+
+.effectif td
+{
+    padding: 0 10px;
+}
+
+.absence
+{
+    margin-left: 20px;
+    box-shadow: 10px 10px 10px rgb(41, 41, 41);
+    background-color: white;
+    /*box-shadow: 10px 10px 10px ;*/
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.absence table , .absence tr /*, .absence td */, .absence th
+{
+    border : solid rgb(65, 63, 63) 1px; 
+    /*border-collapse:collapse;*/
+}
+
+.absence td
+{
+    padding: 15px 15px;
+}
+
+th{
+    font-size: 150%;
+    color: brown;
+    font-family: serif;
+    padding: 5px;
+}
+
+.mainContent
+{
+
+    /*padding-right: 0;*/
+    overflow:auto;
+}
+
+.mainContent h1
+{
+    font-family: serif;
+    padding-top: 40px;
+    margin-left: 20px;
+}
+
+.absence select
+{
+    box-shadow: 2px 2px 2px rgb(41, 41, 41);
+}
+
+.etat
+{
+    margin-left: 20px;
+    background-color: white;
+    box-shadow: 10px 10px 10px rgb(41, 41, 41);
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.etat td
+{
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.etat table , .etat tr /*, .etat td , .etat th*/
+{
+    border : solid rgb(80, 78, 78) 1px; 
+    /*border-collapse:collapse;*/
+}
+
+.formModif
+{
+    background-color: rgb(194, 209, 209);
+    /*box-shadow: 10px 10px 10px;*/
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px ;
+}
+
+.save
+{
+    display: none;
+}
+
+.navBar a
+{
+    padding: 0 15px;
+    font-family: serif;
+    font-size: 200%;
+    text-decoration: none;
+    color:white;
+}
+
+.navBar
+{
+    text-align: left;
+    width: 100%;
+    position: fixed;
+    background-color: rgb(21, 21, 71);
+}
+
+#deco
+{
+    color: red;
+}
+
+span
+{
+    padding-left: 20px;
+    padding-right: 10rem;
+    text-align: left;
+    color: rgb(94, 220, 224);
+    font-size: 150%;
+    font-family: serif;
+}
+
+.c
+{
+    color: red ;
+    font-weight: bold;
+}
+
+#row
+{
+    background-color: black;
+}
+
+.visi
+{
+    border-spacing: 0px;
+    margin: 20px;
+}
+
+.visi td
+{
+    padding: 0px 15px;
+}
+
+.visi tr:nth-child(1n)
+{
+    background-color: rgb(230, 219, 219);
+}
+
+.visi tr:nth-child(2n)
+{
+    background-color: white;
+}
+
+.Nav{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    position: fixed;
+}
+
+.Nav a
+{
+    font-size: 120%;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.Nav span
+{
+    padding-left: 10px;
+    padding-right: 20px;
+}
